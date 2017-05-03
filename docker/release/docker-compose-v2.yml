@@ -27,7 +27,7 @@ services:
       - "--die-on-term"
 
   test:
-    image: /todobackend-specs
+    image: imkheong/todobackend-specs
     links:
       - nginx
     environment:
