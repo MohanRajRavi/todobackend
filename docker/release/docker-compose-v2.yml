@@ -58,7 +58,7 @@ services:
       MYSQL_ROOT_PASSWORD: password
 
   agent:
-    image: /ansible
+    image: imkheong/ansible
     links:
       - db
     environment:
