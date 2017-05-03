@@ -1,5 +1,5 @@
-FROM jmenga/todobackend-base:latest
-MAINTAINER Justin Menga <justin.menga@gmail.com>
+FROM imkheong/todobackend-base:latest
+MAINTAINER Chris Voon <chris.voon@gmail.com>
 
 # Install dev/build dependencies
 RUN apt-get update && \
